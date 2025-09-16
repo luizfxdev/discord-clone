@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dicendo - Clone do Discord</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="header-nav">
+          <div class="logo">DICENDO</div>
+          <ul class="nav-menu">
+            <li><a href="#">Baixar</a></li>
+            <li><a href="#">Nitro</a></li>
+            <li><a href="#">Descobrir</a></li>
+            <li><a href="#">Segurança</a></li>
+            <li><a href="#">Suporte</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Carreiras</a></li>
+          </ul>
+          <button class="login-btn">Abrir o Dicendo</button>
+          <div class="mobile-menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+        <div class="hero">
+          <h1>Crie um espaço controlado por convite onde você se sinta em casa</h1>
+          <p>
+            Os encontros desenvolvidos e gerados com a sua melhor natureza são necessários. A forma de que o ambiente,
+            no dia da igreja.
+          </p>
+          <div class="hero-buttons">
+            <button class="btn-primary">Baixar para Windows</button>
+            <button class="btn-secondary">Abrir o Dicendo no navegador</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="feature-section">
+        <div class="container">
+          <div class="feature-grid">
+            <div class="feature-image">
+              <img src="assets/image1.png" alt="Interface do Dicendo mostrando servidores" />
+            </div>
+            <div class="feature-content">
+              <h2>Aqui é fácil se encontrar</h2>
+              <p>
+                Entre no canal de voz quando estiver à toa. Amigos no mesmo servidor podem te ver imediatamente, sem nem
+                ter que fazer a chamada.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-section alt">
+        <div class="container">
+          <div class="feature-grid reverse">
+            <div class="feature-image">
+              <img src="assets/image2.png" alt="Comunidade no Dicendo" />
+            </div>
+            <div class="feature-content">
+              <h2>Para poucos e para muitos</h2>
+              <p>
+                Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê poderes
+                especiais aos membros, crie canais privados e muito mais.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-section">
+        <div class="container">
+          <div class="feature-grid">
+            <div class="feature-image">
+              <img src="assets/image3.png" alt="Tecnologia de conexão do Dicendo" />
+            </div>
+            <div class="feature-content">
+              <h2>TECNOLOGIA DE CONEXÃO CONFIÁVEL</h2>
+              <p>
+                Voz e vídeo de baixa latência, para você conversar como se estivesse na mesma sala. Dê oi para o vídeo,
+                veja amigos jogarem ou compartilhe sua tela em uma sessão de streaming.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="download-section">
+        <div class="container">
+          <div class="download-content">
+            <h2>Pronto para começar sua jornada?</h2>
+            <button class="btn-download">Baixar para Windows</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-social">
+            <h3>DICENDO</h3>
+            <div class="social-icons">
+              <a href="#"><img src="assets/footer1.png" alt="Twitter" /></a>
+              <a href="#"><img src="assets/footer1.png" alt="Instagram" /></a>
+              <a href="#"><img src="assets/footer1.png" alt="Facebook" /></a>
+              <a href="#"><img src="assets/footer1.png" alt="YouTube" /></a>
+            </div>
+          </div>
+          <div class="footer-links">
+            <div class="link-column">
+              <h4>Produto</h4>
+              <a href="#">Baixar</a>
+              <a href="#">Nitro</a>
+              <a href="#">Status</a>
+            </div>
+            <div class="link-column">
+              <h4>Empresa</h4>
+              <a href="#">Sobre</a>
+              <a href="#">Empregos</a>
+              <a href="#">Marca</a>
+              <a href="#">Sala de imprensa</a>
+            </div>
+            <div class="link-column">
+              <h4>Recursos</h4>
+              <a href="#">Faculdade</a>
+              <a href="#">Suporte</a>
+              <a href="#">Segurança</a>
+              <a href="#">Blog</a>
+              <a href="#">Feedback</a>
+            </div>
+            <div class="link-column">
+              <h4>Políticas</h4>
+              <a href="#">Termos</a>
+              <a href="#">Privacidade</a>
+              <a href="#">Configurações de cookies</a>
+              <a href="#">Diretrizes</a>
+              <a href="#">Reconhecimentos</a>
+              <a href="#">Licenças</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <hr />
+          <div class="footer-bottom-content">
+            <div class="logo">DICENDO</div>
+            <button class="btn-register">Abrir o Dicendo</button>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Script para o menu mobile
+      document.querySelector('.mobile-menu-btn').addEventListener('click', function () {
+        document.querySelector('.nav-menu').classList.toggle('active');
+      });
+    </script>
+  </body>
+</html>
