@@ -73,4 +73,4 @@ Este projeto foi desenvolvido apenas para fins educativos, como parte do Desafio
 
 Todas as imagens e conceitos de design são baseados no Discord, mas com conteúdo textual adaptado para o exercício.
 
-**👨‍💻 Desenvolvido como parte do Desafio de Responsividade da [Digital Innovation One](dio.me)**
+**👨‍💻 Desenvolvido como parte do Desafio de Responsividade da [Digital Innovation One](https://www.dio.me)**
